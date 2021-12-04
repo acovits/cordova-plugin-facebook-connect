@@ -36,7 +36,7 @@
     <!-- android -->
     <platform name="android">
         <js-module src="www/facebook-native.js" name="FacebookConnectPlugin">
-            <clobbers target="facebookConnectPlugin" />
+            <clobbers target="cordova.plugins.facebook" />
         </js-module>
 
         <config-file target="res/xml/config.xml" parent="/*">
@@ -90,7 +90,7 @@
     <!-- ios -->
     <platform name="ios">
         <js-module src="www/facebook-native.js" name="FacebookConnectPlugin">
-            <clobbers target="facebookConnectPlugin" />
+            <clobbers target="cordova.plugins.facebook" />
         </js-module>
 
         <config-file target="config.xml" parent="/*">
@@ -201,7 +201,7 @@
     <!-- browser -->
     <platform name="browser">
         <js-module src="www/facebook-browser.js" name="FacebookConnectPluginBrowser">
-            <clobbers target="facebookConnectPlugin" />
+            <clobbers target="cordova.plugins.facebook" />
         </js-module>
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
