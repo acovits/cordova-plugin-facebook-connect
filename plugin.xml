@@ -17,8 +17,8 @@
 
     <license>Apache 2.0</license>
 
-    <preference name="APP_ID" />
-    <preference name="APP_NAME" />
+    <preference name="APP_ID" default="445666839788839" />
+    <preference name="APP_NAME" default="자란다" />
     <preference name="FACEBOOK_URL_SCHEME_SUFFIX" default=" " />
     <preference name="OTHER_APP_SCHEMES" default=" " />
     <preference name="FACEBOOK_AUTO_LOG_APP_EVENTS" default="true" />
