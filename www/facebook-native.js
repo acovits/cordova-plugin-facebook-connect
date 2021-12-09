@@ -1,4 +1,8 @@
-var exec = require('cordova/exec')
+var _exec = require('cordova/exec')
+function exec(os, of, s, a, args) {
+  console.info("CDV", s, a, args);
+  _exec(os, of, s, a, args);
+}
 
 exports.getApplicationId = function (s, f) {
   exec(s, f, 'FacebookConnectPlugin', 'getApplicationId', [])
